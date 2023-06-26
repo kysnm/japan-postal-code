@@ -1,4 +1,4 @@
-/* ================================================================ *
+ /* ================================================================ *
     ajaxzip3.js ---- AjaxZip3 郵便番号→住所変換ライブラリ
 
     Copyright (c) 2015 MIZUNO Hiroki
@@ -34,11 +34,11 @@
 
 var jsonp = require('jsonp')
 
-JSONDATA = 'https://yubinbango.github.io/yubinbango-data/data';
-CACHE = [];
+const JSONDATA = 'https://yubinbango.github.io/yubinbango-data/data';
+const CACHE = [];
 
 
-PREFMAP = [
+const PREFMAP = [
     null,       '北海道',   '青森県',   '岩手県',   '宮城県',
     '秋田県',   '山形県',   '福島県',   '茨城県',   '栃木県',
     '群馬県',   '埼玉県',   '千葉県',   '東京都',   '神奈川県',
